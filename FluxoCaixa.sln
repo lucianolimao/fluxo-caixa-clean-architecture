@@ -1,0 +1,63 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A1234567-ABCD-1234-ABCD-123456789ABC}"
+EndProject
+
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B1234567-ABCD-1234-ABCD-123456789ABC}"
+EndProject
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxoCaixa.Domain", "src\FluxoCaixa.Domain\FluxoCaixa.Domain.csproj", "{C1234567-ABCD-1234-ABCD-123456789ABC}"
+EndProject
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxoCaixa.Application", "src\FluxoCaixa.Application\FluxoCaixa.Application.csproj", "{D1234567-ABCD-1234-ABCD-123456789ABC}"
+EndProject
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxoCaixa.Infrastructure", "src\FluxoCaixa.Infrastructure\FluxoCaixa.Infrastructure.csproj", "{E1234567-ABCD-1234-ABCD-123456789ABC}"
+EndProject
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxoCaixa.API", "src\FluxoCaixa.API\FluxoCaixa.API.csproj", "{F1234567-ABCD-1234-ABCD-123456789ABC}"
+EndProject
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxoCaixa.Domain.Tests", "tests\FluxoCaixa.Domain.Tests\FluxoCaixa.Domain.Tests.csproj", "{11234567-ABCD-1234-ABCD-123456789ABC}"
+EndProject
+
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1234567-ABCD-1234-ABCD-123456789ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1234567-ABCD-1234-ABCD-123456789ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1234567-ABCD-1234-ABCD-123456789ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1234567-ABCD-1234-ABCD-123456789ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1234567-ABCD-1234-ABCD-123456789ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1234567-ABCD-1234-ABCD-123456789ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1234567-ABCD-1234-ABCD-123456789ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1234567-ABCD-1234-ABCD-123456789ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1234567-ABCD-1234-ABCD-123456789ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1234567-ABCD-1234-ABCD-123456789ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1234567-ABCD-1234-ABCD-123456789ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1234567-ABCD-1234-ABCD-123456789ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1234567-ABCD-1234-ABCD-123456789ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1234567-ABCD-1234-ABCD-123456789ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1234567-ABCD-1234-ABCD-123456789ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1234567-ABCD-1234-ABCD-123456789ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11234567-ABCD-1234-ABCD-123456789ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11234567-ABCD-1234-ABCD-123456789ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11234567-ABCD-1234-ABCD-123456789ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11234567-ABCD-1234-ABCD-123456789ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1234567-ABCD-1234-ABCD-123456789ABC} = {A1234567-ABCD-1234-ABCD-123456789ABC}
+		{D1234567-ABCD-1234-ABCD-123456789ABC} = {A1234567-ABCD-1234-ABCD-123456789ABC}
+		{E1234567-ABCD-1234-ABCD-123456789ABC} = {A1234567-ABCD-1234-ABCD-123456789ABC}
+		{F1234567-ABCD-1234-ABCD-123456789ABC} = {A1234567-ABCD-1234-ABCD-123456789ABC}
+		{11234567-ABCD-1234-ABCD-123456789ABC} = {B1234567-ABCD-1234-ABCD-123456789ABC}
+	EndGlobalSection
+EndGlobal
