@@ -4,6 +4,13 @@
 
 Sistema para controle de lançamentos financeiros (débitos e créditos) com consolidação diária do saldo, desenvolvido seguindo Clean Architecture e princípios SOLID.
 
+## 📚 Documentação
+
+- [Roadmap do Projeto](docs/ROADMAP.md)
+- [Arquitetura Detalhada](docs/architecture/ARCHITECTURE.md)
+- [Decisões de Arquitetura (ADR)](docs/architecture/ADR.md)
+- [Requisitos Não Funcionais](docs/architecture/NON_FUNCTIONAL_REQUIREMENTS.md)
+
 ## 🏗️ Arquitetura
 
 ### Decisões Arquiteturais
